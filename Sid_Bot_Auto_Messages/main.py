@@ -237,7 +237,7 @@ class Client:
 
         #driver = webdriver.Chrome(executable_path=r'D://LEARNING//PROGRAMING//DISCORD//CHROME DRIVER//chromedriver.exe', chrome_options=options)
 
-        driver = webdriver.Chrome(executable_path="/home/ubuntu/DISCORD_BOT/CHROME_DRIVER/chromedriver", chrome_options=options)
+        driver = webdriver.Chrome(executable_path="/home/ubuntu/DISCORD_BOT/CHROME_DRIVER/chromedriver", chrome_options=options)        #  Path for Chrome Driver
 
         driver.get(self.channel)
 
