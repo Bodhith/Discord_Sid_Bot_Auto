@@ -25,9 +25,9 @@ class DataBase:
 
         hostName = "remotemysql.com"
         port = "3306"
-        username = "nyBJDIUR9V"
-        dataBasePassword = "IugtHsr0Bb"
-        dataBaseName = "nyBJDIUR9V"
+        username = "xyz"
+        dataBasePassword = "xyz"
+        dataBaseName = "xyz"
 
         self.dataBase = MySQLdb.connect(
                                         hostName,
